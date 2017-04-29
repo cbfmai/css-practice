@@ -38,11 +38,11 @@ p {
 ## 3, Hot to insert css?
 ### 3.1 Three ways to insert css
 >* External style sheet
-```$xslt
+```html
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 ```
 >* Internal style sheet
-```$xslt
+```html
 <head>
 <style>
 body {
@@ -52,7 +52,7 @@ body {
 </head>
 ```
 >* Inline style
-```$xslt
+```html
 <h1 style="color:blue;margin-left:30px;">This is a heading</h1>
 Try it Yourself »
 ```
