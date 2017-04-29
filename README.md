@@ -76,3 +76,40 @@ Colors in CSS are most often specified by:
 * a valid color name - like "red"
 * an RGB value - like "rgb(255, 0, 0)"
 * a HEX value - like "#ff0000"
+
+## 5 CSS background
+
+The CSS background properties are used to define the background effects for elements.
+
+CSS background properties:
+
+* background-color
+* background-image
+* background-repeat
+* background-attachment
+* background-position
+
+[details](https://www.w3schools.com/css/css_background.asp)
+
+```css
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+```
+
+```css
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+```
+
+```css
+body {
+    background: #ffffff url("img_tree.png") no-repeat right top;
+}
+```
