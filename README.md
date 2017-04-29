@@ -38,10 +38,12 @@ p {
 ## 3, Hot to insert css?
 ### 3.1 Three ways to insert css
 * External style sheet
+
 ```code
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 ```
 * Internal style sheet
+
 ```code
 <head>
 <style>
@@ -52,9 +54,9 @@ body {
 </head>
 ```
 * Inline style
+
 ```code
 <h1 style="color:blue;margin-left:30px;">This is a heading</h1>
-Try it Yourself »
 ```
 
 ### 3.2 Cascading Order
