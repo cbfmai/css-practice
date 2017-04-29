@@ -37,12 +37,12 @@ p {
 
 ## 3, Hot to insert css?
 ### 3.1 Three ways to insert css
->* External style sheet
-```html
+* External style sheet
+```code
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 ```
->* Internal style sheet
-```html
+* Internal style sheet
+```code
 <head>
 <style>
 body {
@@ -51,8 +51,8 @@ body {
 </style>
 </head>
 ```
->* Inline style
-```html
+* Inline style
+```code
 <h1 style="color:blue;margin-left:30px;">This is a heading</h1>
 Try it Yourself »
 ```
@@ -62,8 +62,8 @@ What style will be used when there is more than one style specified for an HTML 
 
 Generally speaking we can say that all the styles will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
 
--[x] Inline style (inside an HTML element)
--[x] External and internal style sheets (in the head section)
--[x]  Browser default
+* 1,Inline style (inside an HTML element)
+* 2,External and internal style sheets (in the head section)
+* 3,Browser default
 
 So, an inline style (inside a specific HTML element) has the highest priority, which means that it will override a style defined inside the <head> tag, or in an external style sheet, or a browser default value.
