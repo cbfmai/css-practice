@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        body {
+            background: #f06d06;
+            padding: 20px;
+        }
+
+        main {
+            position: relative;
+            background: white;
+            height: 200px;
+            width: 60%;
+            padding: 20px;
+            resize: both;
+            overflow: auto;
+            margin: 0 auto;
+        }
+
+        main div {
+            background: black;
+            color: white;
+            width: 200px;
+            height: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            padding: 20px;
+            margin: -70px 0 0 -120px;
+            /*
+            Using negative margins equal to half of that width and height,
+            after you've absolutely positioned it at 50% / 50%
+            will center it with great cross browser support.
+             */
+        }
+    </style>
+
+</head>
+<body>
+<main>
+    <div>
+        I'm a block-level element a fixed height and width, centered vertically within my parent.
+    </div>
+</main>
+</body>
+</html>
